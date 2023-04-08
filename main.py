@@ -32,3 +32,6 @@ new_list1 = [x for x in fruits if "ja" not in x]
 print(new_list1)
 fruits.sort()
 print(fruits)
+
+ver = "Australia"
+local = "sdghjthg"

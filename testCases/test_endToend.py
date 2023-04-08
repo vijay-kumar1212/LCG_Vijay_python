@@ -25,3 +25,4 @@ class Testone(BaseClass):
         check = self.driver.find_element(By.CSS_SELECTOR, '#autosuggest').get_attribute('value')
         # get_attribute('value') method we use to retrieve the text value which uploaded dynamically
         assert 'India' in check
+        print(""success)
